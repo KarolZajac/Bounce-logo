@@ -1,5 +1,5 @@
 let speed = 20;
-let scale = 4; // Image scale (I work on 1080p monitor)
+let scale = 1.5; // Image scale (I work on 1080p monitor)
 let canvas;
 let ctx;
 let logoColor;
@@ -7,8 +7,8 @@ let logoColor;
 let logo = {
     x: 200,
     y: 300,
-    xspeed: 10,
-    yspeed: 10,
+    xspeed: 4,
+    yspeed: 4,
     img: new Image()
 };
 
