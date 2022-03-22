@@ -27,7 +27,7 @@ let logo = {
 function update() {
     setTimeout(() => {
         //Draw the canvas background
-        ctx.fillStyle = '#000';
+        ctx.fillStyle = '#fff';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         //Draw logo Logo and his background
         ctx.fillStyle = logoColor;
